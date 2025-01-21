@@ -68,7 +68,7 @@ a:hover{
 }
 
 .box2:hover {
-    transform: rotate(365deg);
+    transform: rotate(360deg);
 }
 
 
