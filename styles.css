@@ -5,13 +5,19 @@
     margin: 20px;
 }
 
+
+
 .box1 {
     background-color: lightblue;
+    transition: background-color, transform 1s ease;
 }
 
 .box1:hover {
     background-color: lightcoral;
+    transform: skew(20deg, 10deg);
 } 
+
+
 
 .box2 {
     background-color: lightgreen;
@@ -23,15 +29,22 @@
     transform: rotate(45deg);
 }
 
+
+
 .box3 {
     background-color: rgb(246, 246, 156);
+    transition: transform 1s ease;
 }
 
 .box3:hover {
     width: 200px;
     height: 200px;
     background-color: lightsalmon;
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+
 }
+
+
 
 .box4 {
     background-color: lightcyan;
@@ -41,6 +54,8 @@
 .box4:hover {
     transform: translateX(200px);
 }
+
+
 
 .box5 {
     background-color: lightpink;
@@ -56,6 +71,8 @@
 transform: translateY(100px);
     }
 
+
+    
 p {
     font-size: 20px;
     font-weight: bold;
