@@ -2,7 +2,7 @@ nav {
     display: flex;
     gap: 0.5rem;
   }
-  
+  /*
   a {
     flex: 1;
     background-color: #333;
@@ -19,7 +19,7 @@ nav {
     background-color: #fff;
     color: #333;
   }
-
+*/
 a{
     margin-top: 20px;
     padding: 20px;
