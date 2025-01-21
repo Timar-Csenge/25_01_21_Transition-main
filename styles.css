@@ -1,10 +1,10 @@
 nav {
     display: flex;
     gap: 0.5rem;
-  }
+}
 
-  /*
-  a {
+
+a {
     flex: 1;
     background-color: #333;
     color: #fff;
@@ -13,20 +13,19 @@ nav {
     text-align: center;
     text-decoration: none;
     transition: all 0.5s ease-out;
-  }
-    
-  */
-  a:hover,
-  a:focus {
+}
+
+a:hover,
+a:focus {
     background-color: #fff;
     color: #333;
-  }
+}
 
 a{
     margin-top: 20px;
     padding: 20px;
     width: 100px;
-    height: 200px;
+    height: 50px;
     margin: 20px;
     background-color: black;
     color: white;
