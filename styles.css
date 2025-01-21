@@ -6,11 +6,15 @@ a{
     margin: 20px;
     background-color: black;
     color: white;
+    border: 2px white dotted;
+
 }
 
 a:hover{
     background-color: white;
     color: black;
+    transition: background-color 1s ease-in-out;
+    border: 2px black dotted;
 }
 
 .box {
