@@ -21,17 +21,6 @@ a:focus {
     color: #333;
 }
 
-a{
-    margin-top: 20px;
-    padding: 20px;
-    width: 100px;
-    height: 50px;
-    margin: 20px;
-    background-color: black;
-    color: white;
-    border: 2px white dotted;
-
-}
 
 a:hover{
     background-color: white;
