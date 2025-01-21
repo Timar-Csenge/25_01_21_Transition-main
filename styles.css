@@ -68,11 +68,12 @@
     height: 200px;
     background-color: lightseagreen;
 */
-transform: translateY(100px);
+transform: rotateY(150deg);
+
     }
 
 
-    
+
 p {
     font-size: 20px;
     font-weight: bold;
